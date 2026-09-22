@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Portfolio | Ahmad Shahzad</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%235b6ef5'/><stop offset='100%' stop-color='%23a78bfa'/></linearGradient></defs><rect width='100' height='100' rx='22' fill='url(%23g)'/><text y='.9em' font-size='62' font-family='sans-serif' font-weight='700' fill='white' x='50%' text-anchor='middle' dy='8'>A</text></svg>">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+<div class="blobs"><div class="blob blob1"></div><div class="blob blob2"></div><div class="blob blob3"></div></div>
+<div id="preloader"><div class="preloader-inner"><div class="preloader-logo">A</div><div class="preloader-bar"><div class="preloader-fill"></div></div><p class="preloader-text">Loading...</p></div></div>
+<nav class="navbar">
+  <div class="nav-logo">Ahmad.</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+    <li><a href="skills.html">Skills</a></li><li><a href="experience.html">Experience</a></li>
+    <li><a href="portfolio.html" class="active">Portfolio</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a>
+  <a href="experience.html">Experience</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a>
+</div>
+
+<section class="page-hero">
+  <span class="section-label">My Work</span>
+  <h1>Store <span>Portfolio</span></h1>
+  <p>A showcase of e-commerce stores I've designed, built, and managed across platforms.</p>
+</section>
+
+<section class="portfolio-section">
+  <div class="container">
+    <div class="carousel-wrap fade-up">
+      <div class="carousel glass">
+        <div class="carousel-track">
+
+          <div class="carousel-slide">
+            <img src="images/store1.jpg" alt="Lumeva Beauty Store" class="slide-img"/>
+            <div class="slide-content">
+              <h3>Lumeva — Beauty & Skincare Store</h3>
+              <p>A fully branded Shopify store for a UAE-based beauty brand. Features skin care, hair care, and makeup collections with a professional pink-themed design, bilingual content, and a strong "Glow With Confidence" brand identity. Targeted the UAE market with cash on delivery and free shipping offers.</p>
+              <div class="slide-tags">
+                <span class="slide-tag">Shopify</span><span class="slide-tag">Branding</span>
+                <span class="slide-tag">UAE Market</span><span class="slide-tag">Beauty Niche</span><span class="slide-tag">Bilingual</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="images/store2.jpg" alt="Luxury Craft Store" class="slide-img"/>
+            <div class="slide-content">
+              <h3>Luxury Craft — Multi-Category Store</h3>
+              <p>A multi-category Shopify store covering fashion, health & beauty, home & kitchen, and electronics. Designed with a bold teal and black theme targeting Pakistani buyers with free shipping on orders above Rs. 1999 and an active flash sale campaign to drive conversions.</p>
+              <div class="slide-tags">
+                <span class="slide-tag">Shopify</span><span class="slide-tag">Multi-Category</span>
+                <span class="slide-tag">Pakistan Market</span><span class="slide-tag">SEO</span><span class="slide-tag">UX Design</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="images/store3.jpg" alt="Amaze Craft Dark Theme" class="slide-img"/>
+            <div class="slide-content">
+              <h3>Amaze Craft — Wall Decor & Watches</h3>
+              <p>A premium dark-themed Shopify store for a UAE-based brand selling Islamic wall art, acrylic wall decor, and luxury watches. The elegant navy and gold color scheme communicates premium quality, with a curated product experience and bilingual product announcements.</p>
+              <div class="slide-tags">
+                <span class="slide-tag">Shopify</span><span class="slide-tag">Premium Design</span>
+                <span class="slide-tag">UAE Market</span><span class="slide-tag">Luxury Niche</span><span class="slide-tag">Islamic Art</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="images/store4.jpg" alt="Amaze Craft Handmade" class="slide-img"/>
+            <div class="slide-content">
+              <h3>Amaze Craft — Handmade & CNC Decor</h3>
+              <p>A warm, artisan-themed Shopify store specializing in handmade crafts and CNC wood decor. The beige and brown palette creates a natural, trustworthy feel. Features a 14-day easy return policy and prominently showcases handcrafted products with a seasonal 50% sale campaign.</p>
+              <div class="slide-tags">
+                <span class="slide-tag">Shopify</span><span class="slide-tag">Handmade Niche</span>
+                <span class="slide-tag">CNC Decor</span><span class="slide-tag">Branding</span><span class="slide-tag">Artisan Theme</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="carousel-slide">
+            <img src="images/store5.jpg" alt="NovaDrop Studio Etsy" class="slide-img"/>
+            <div class="slide-content">
+              <h3>NovaDrop Studio — Etsy Marketplace</h3>
+              <p>A beautifully branded Etsy storefront for NovaDrop Studio with the tagline "Designed to Inspire. Made to Love." Features an elegant gold and neutral branding system with a premium monogram logo. The shop showcases 28+ digital and physical products with optimized listings, tags, and SEO-friendly product descriptions for organic marketplace visibility.</p>
+              <div class="slide-tags">
+                <span class="slide-tag">Etsy</span><span class="slide-tag">SEO</span>
+                <span class="slide-tag">Product Listing</span><span class="slide-tag">Marketplace</span><span class="slide-tag">Digital Products</span>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+      <button class="carousel-btn carousel-prev"><i class="fas fa-chevron-left"></i></button>
+      <button class="carousel-btn carousel-next"><i class="fas fa-chevron-right"></i></button>
+      <div class="carousel-dots">
+        <div class="dot active"></div><div class="dot"></div><div class="dot"></div>
+        <div class="dot"></div><div class="dot"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="portfolio-cta">
+  <div class="container">
+    <h3>Want a store like this?</h3>
+    <p>I can design and set up your Shopify or Etsy store from scratch — branded, optimized, and ready to sell.</p>
+    <a href="contact.html" class="btn-primary"><i class="fas fa-comment"></i> Let's Work Together</a>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Ahmad Shahzad · Okara, Punjab, Pakistan</p>
+  <div class="footer-links">
+    <a href="mailto:ahmad18.learn@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/ahmad-shahzad" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>

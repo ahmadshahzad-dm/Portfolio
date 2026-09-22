@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/><meta name="viewport" content="width=device-width,initial-scale=1.0"/>
+  <title>Skills | Ahmad Shahzad</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='g' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%235b6ef5'/><stop offset='100%' stop-color='%23a78bfa'/></linearGradient></defs><rect width='100' height='100' rx='22' fill='url(%23g)'/><text y='.9em' font-size='62' font-family='sans-serif' font-weight='700' fill='white' x='50%' text-anchor='middle' dy='8'>A</text></svg>">
+  <link rel="stylesheet" href="style.css"/>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+</head>
+<body>
+<div class="blobs"><div class="blob blob1"></div><div class="blob blob2"></div><div class="blob blob3"></div></div>
+<div id="preloader"><div class="preloader-inner"><div class="preloader-logo">A</div><div class="preloader-bar"><div class="preloader-fill"></div></div><p class="preloader-text">Loading...</p></div></div>
+<nav class="navbar">
+  <div class="nav-logo">Ahmad.</div>
+  <ul class="nav-links">
+    <li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li>
+    <li><a href="skills.html" class="active">Skills</a></li><li><a href="experience.html">Experience</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li><li><a href="contact.html">Contact</a></li>
+  </ul>
+  <div class="hamburger" onclick="toggleMenu()"><i class="fas fa-bars"></i></div>
+</nav>
+<div class="mobile-menu" id="mobileMenu">
+  <a href="index.html">Home</a><a href="about.html">About</a><a href="skills.html">Skills</a>
+  <a href="experience.html">Experience</a><a href="portfolio.html">Portfolio</a><a href="contact.html">Contact</a>
+</div>
+
+<section class="page-hero">
+  <span class="section-label">Capabilities</span>
+  <h1>My <span>Skills</span></h1>
+  <p>Tools and disciplines I've worked with — ranked honestly by confidence level.</p>
+</section>
+
+<section class="skills-section">
+  <div class="container">
+    <span class="section-label">Skill Levels</span>
+    <h2 class="section-title">What I <span>Bring to the Table</span></h2>
+    <p class="section-sub">Ranked by real-world experience and confidence.</p>
+
+    <div class="skill-bars-wrap glass fade-up" style="padding:2.5rem;border-radius:20px">
+      <div class="skill-bar-item">
+        <div class="skill-bar-top">
+          <span><i class="fas fa-store" style="color:var(--accent);margin-right:0.5rem"></i> E-Commerce & Shopify</span>
+          <div style="display:flex;align-items:center;gap:0.6rem">
+            <span class="skill-level-badge">Specialist</span>
+            <span class="skill-pct">85%</span>
+          </div>
+        </div>
+        <div class="skill-track"><div class="skill-fill" data-w="85%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-top">
+          <span><i class="fas fa-bullhorn" style="color:var(--accent);margin-right:0.5rem"></i> Digital Marketing</span>
+          <div style="display:flex;align-items:center;gap:0.6rem">
+            <span class="skill-level-badge">Specialist</span>
+            <span class="skill-pct">80%</span>
+          </div>
+        </div>
+        <div class="skill-track"><div class="skill-fill" data-w="80%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-top">
+          <span><i class="fas fa-robot" style="color:var(--accent);margin-right:0.5rem"></i> AI & Prompt Engineering</span>
+          <div style="display:flex;align-items:center;gap:0.6rem">
+            <span class="skill-level-badge">Proficient</span>
+            <span class="skill-pct">75%</span>
+          </div>
+        </div>
+        <div class="skill-track"><div class="skill-fill" data-w="75%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-top">
+          <span><i class="fas fa-file-excel" style="color:var(--accent);margin-right:0.5rem"></i> MS Office & ICT Tools</span>
+          <div style="display:flex;align-items:center;gap:0.6rem">
+            <span class="skill-level-badge">Familiar</span>
+            <span class="skill-pct">60%</span>
+          </div>
+        </div>
+        <div class="skill-track"><div class="skill-fill" data-w="60%"></div></div>
+      </div>
+      <div class="skill-bar-item">
+        <div class="skill-bar-top">
+          <span><i class="fas fa-search" style="color:var(--accent);margin-right:0.5rem"></i> SEO & Keyword Research</span>
+          <div style="display:flex;align-items:center;gap:0.6rem">
+            <span class="skill-level-badge">Familiar</span>
+            <span class="skill-pct">55%</span>
+          </div>
+        </div>
+        <div class="skill-track"><div class="skill-fill" data-w="55%"></div></div>
+      </div>
+    </div>
+
+    <div style="margin-top:4rem">
+      <span class="section-label">Tools</span>
+      <h2 class="section-title">Tools I <span>Work With</span></h2>
+      <p class="section-sub">Platforms and software in my daily workflow.</p>
+      <div class="tools-grid">
+        <div class="tool-card glass fade-up"><span class="tool-emoji">🛍️</span><span>Shopify</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">🏪</span><span>Etsy</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">📘</span><span>Meta Ads</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">📊</span><span>Google Analytics</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">🤖</span><span>ChatGPT / AI</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">🎨</span><span>Canva</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">📧</span><span>Email Marketing</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">📝</span><span>MS Office</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">🔍</span><span>SEO Tools</span></div>
+        <div class="tool-card glass fade-up"><span class="tool-emoji">📱</span><span>Social Media</span></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer">
+  <p>© 2025 Ahmad Shahzad · Okara, Punjab, Pakistan</p>
+  <div class="footer-links">
+    <a href="mailto:ahmad18.learn@gmail.com"><i class="fas fa-envelope"></i></a>
+    <a href="https://linkedin.com/in/ahmad-shahzad" target="_blank"><i class="fab fa-linkedin-in"></i></a>
+  </div>
+</footer>
+<script src="main.js"></script>
+</body>
+</html>
